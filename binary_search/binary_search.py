@@ -1,3 +1,5 @@
+from math import log2 as log2
+
 def binary_search(lst, target):
     low = 0
     high = len(lst) - 1
@@ -15,10 +17,14 @@ def binary_search(lst, target):
     return None
 
 if __name__ == "__main__":
-    my_list = [1, 3, 5, 7, 9]
+    my_list = [1, 2, 3, 15, 17, 19, 39, 41]
     result = binary_search(my_list, 3)
     if result is not None:
         print(f"Element found at index {result}")
     else:
         print("Element not found")
 
+
+    list_size = len(my_list)
+    steps = log2(list_size)
+    print(f"Log2 of list size ({list_size}) is: {steps:.2f}")

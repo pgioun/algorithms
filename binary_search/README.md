@@ -30,6 +30,10 @@ The script's main code block uses the `binary_search` function to search for a s
 3. Call the `binary_search` function with `my_list` and `target_value`, storing the result in the `result` variable.
 4. Check if the `result` is not `None`, indicating that the target value was found. If so, print the index where the element was found. Otherwise, print "Element not found."
 
+### Maximum Number of Steps in Binary Search
+
+In binary search, the maximum number of steps required to find an item in a sorted list of size `n` can be calculated using the formula `log2(n)`. This is because binary search divides the search range in half with each comparison. The logarithm base 2 provides the number of times you can divide `n` by 2 until you reach 1.
+
 ## Usage
 
 To use the binary search script:
@@ -37,6 +41,8 @@ To use the binary search script:
 2. Clone or download this repository.
 3. Open a terminal and navigate to the repository directory.
 4. Run the script using the command: `python binary_search.py`.
+
+
 
 ## Contributing
 
