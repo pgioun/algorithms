@@ -36,6 +36,15 @@ In binary search, the maximum number of steps required to find an item in a sort
 
 When the list size is doubled to `2n`, the maximum number of steps required becomes `log2(2n)`, which simplifies to `log2(n) + 1`.
 
+
+### Input Validation and Error Handling (binary_serach_v2.py)
+
+The `binary_search` function includes input validation to ensure that the input arguments are of the correct types. Specifically:
+- The input list (`lst`) must be of type `list`, and all its elements must be of type `int`.
+- The target value (`target`) must be of type `int`.
+
+If the inputs do not meet these criteria, the function raises a `ValueError` with an appropriate error message. This helps catch invalid inputs and provides clear feedback about the issue.
+
 ## Usage
 
 To use the binary search script:
