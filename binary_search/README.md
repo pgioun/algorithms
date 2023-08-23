@@ -34,6 +34,8 @@ The script's main code block uses the `binary_search` function to search for a s
 
 In binary search, the maximum number of steps required to find an item in a sorted list of size `n` can be calculated using the formula `log2(n)`. This is because binary search divides the search range in half with each comparison. The logarithm base 2 provides the number of times you can divide `n` by 2 until you reach 1.
 
+When the list size is doubled to `2n`, the maximum number of steps required becomes `log2(2n)`, which simplifies to `log2(n) + 1`.
+
 ## Usage
 
 To use the binary search script:
