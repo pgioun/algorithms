@@ -18,7 +18,7 @@ The script includes test cases demonstrating sorting various types of arrays.
 
 ## Code Explanation
 
-The `selection_sort` function in `selection_sort.py` takes an input list and returns the sorted list using the selection sort algorithm. It includes error handling for inappropriate input.
+The `selection_sort` function in `selection_search_basic.py` takes an input list and returns the sorted list using the selection sort algorithm. It includes error handling for inappropriate input.
 
 ## Test Cases
 
