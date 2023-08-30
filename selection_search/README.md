@@ -38,4 +38,4 @@ Contributions to this repository are welcome. If you find any issues or have imp
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE)
+This project is licensed under the Apache License - see the [LICENSE](LICENSE)
