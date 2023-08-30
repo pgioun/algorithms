@@ -61,4 +61,4 @@ Contributions to improve this code are welcome! If you find any issues or have s
 
 ## License
 
-This project is licensed under the [Apache License License](LICENSE).
+This project is licensed under the [Apache License License]( http://www.apache.org/licenses/).
